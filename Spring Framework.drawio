@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-14T05:55:49.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="uMvVAlgE76t1M8oOKYGV" version="13.9.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-14T06:04:06.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="6fndOD33b38vcA-eFcHL" version="13.9.8" type="github" pages="8">
   <diagram id="Fao6AHTK1YzCmF_5-Bte" name="core">
     <mxGraphModel dx="1042" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nBT5wiRh4pOvYky_znrz" name="context">
-    <mxGraphModel dx="6657" dy="2854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7873" dy="3576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NM_J535vATO15riIAVDu-0" />
         <mxCell id="NM_J535vATO15riIAVDu-1" parent="NM_J535vATO15riIAVDu-0" />
@@ -382,7 +382,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q1WT7oj7_rX2YD_HFgOy-0" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(0 , 51 , 179)&quot;&gt;void &lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 98 , 122)&quot;&gt;refresh&lt;/span&gt;()&lt;/pre&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="NM_J535vATO15riIAVDu-1">
-          <mxGeometry x="3120" y="1169" width="205" height="31" as="geometry" />
+          <mxGeometry x="3117.5" y="1169" width="205" height="31" as="geometry" />
         </mxCell>
         <mxCell id="q1WT7oj7_rX2YD_HFgOy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NM_J535vATO15riIAVDu-1" source="q1WT7oj7_rX2YD_HFgOy-3" target="q1WT7oj7_rX2YD_HFgOy-5">
           <mxGeometry relative="1" as="geometry" />
@@ -393,8 +393,8 @@
         <mxCell id="q1WT7oj7_rX2YD_HFgOy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NM_J535vATO15riIAVDu-1" source="q1WT7oj7_rX2YD_HFgOy-4" target="q1WT7oj7_rX2YD_HFgOy-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q1WT7oj7_rX2YD_HFgOy-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;prepareRefresh();&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;refresh前的准备工作&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="NM_J535vATO15riIAVDu-1">
-          <mxGeometry x="3085" y="1240" width="275" height="80" as="geometry" />
+        <mxCell id="q1WT7oj7_rX2YD_HFgOy-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;prepareRefresh();&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;refresh前的准备工作，设置启动时间、标志位、初始化占位的属性文件、确保所有需要的文件已被解析、初始化应用监听器、应用事件&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="NM_J535vATO15riIAVDu-1">
+          <mxGeometry x="3082.5" y="1230" width="275" height="90" as="geometry" />
         </mxCell>
         <mxCell id="q1WT7oj7_rX2YD_HFgOy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NM_J535vATO15riIAVDu-1" source="q1WT7oj7_rX2YD_HFgOy-5" target="q1WT7oj7_rX2YD_HFgOy-6">
           <mxGeometry relative="1" as="geometry" />
